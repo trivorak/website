@@ -9,6 +9,7 @@ body{
   left: 0px;
   width: 100%;
   height: 100px;
+  background-image: url("images/binding_dark.png");
   background-color: #2b2b2b;
 }
 
@@ -16,7 +17,7 @@ body{
   width: auto;
   position: relative;
   top: 100px;
-  background-color: #81a09d;
+  background-color: #2D739F;
   height: 24px;
 }
 
@@ -24,4 +25,21 @@ body{
   position: absolute;
   top:36px;
   padding: 10px;
+}
+
+.image{
+  padding:50px;
+  position: relative;
+  float: left;
+}
+
+.name{
+  font-family: sans-serif;
+  font-size: 27px;
+  font-style: italic;
+  color: #8500ff;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 56px;
+  top: 266px;
 }
