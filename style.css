@@ -1,6 +1,6 @@
 body{
   background-image: url("images/cream_pixels.png");
-  background-color: #fff;
+  background-color: #EDE5E2;
   margin:0px;
 }
 
@@ -14,14 +14,14 @@ body{
 
 .nav{
   width: auto;
-  position:relative;
-  background-color: #d7e7e8;
-  height: 23px;
+  position: relative;
+  top: 100px;
+  background-color: #81a09d;
+  height: 24px;
 }
 
-.overlay{
-  background-image:linear-gradient(black,transparent);
-  transform: rotate(-90deg);
-  height: auto;
-  width: 100px;
+.logo{
+  position: absolute;
+  top:36px;
+  padding: 10px;
 }
